@@ -184,7 +184,10 @@ List of commands:
 - Move-item – Move a file to a new location
 - Copy-item – Copy a file to a new location
 - Rename – item Rename an existing file
-- New-item – Create a new file
+- New-item, ni – Create a new file
+- cd ..  - changes to root directory
+- ls - list the items
+- ALT SPACE C -To close the window
 
 
 ```
