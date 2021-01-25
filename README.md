@@ -5,7 +5,9 @@ Sneak-peak of Bash and PowerShell commands for processing the data
 List of commands:
 
 ```
-
+ls — List directory contents
+- Syntax: ls [option(s)] [file(s)]
+- Common options: -a, -l
 
 
 
