@@ -4,14 +4,13 @@ Sneak-peak of Bash and PowerShell commands for processing the data
 ### Bash
 List of commands:
 
-```
-ls — List directory contents
+1. ls — List directory contents
 - Syntax: ls [option(s)] [file(s)]
 - Common options: -a, -l
 
 
 
-
+```
 
 
 ```
