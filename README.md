@@ -7,10 +7,19 @@ List of commands:
 1. ls — List directory contents
  - Syntax: ls [option(s)] [file(s)]
  - Common options: -a, -l
+ ```
+ ls -a
+ ```
+ ```
+ ls -al
+ ```
  
 2. echo — Prints text to the terminal window
  - Syntax: echo [option(s)] [string(s)]
  - Common options: -e, -n
+ ```
+ $ echo "Hello World"
+ ```
  
 3. touch — Creates a file
  - Syntax: touch [option(s)] file_name(s)
@@ -19,6 +28,9 @@ List of commands:
 4. mkdir — Create a directory
  - Syntax: mkdir [option(s)] directory_name(s)
  - Common options: -m, -p, -v
+ ```
+ mkdir mydirectory
+ ```
 
 5. grep — search
  - Syntax: grep [option(s)] pattern [file(s)]
@@ -39,18 +51,26 @@ List of commands:
 9. rmdir — Remove directory
  - Syntax: rmdir [option(s)] directory_names
  - Common options: -p
- 
+ ```
+ rmdir mydirectory
+ ```
 10. locate — Locate a specific file or directory
  - Syntax: locate [option(s)] file_name(s)
  - Common options: -q, -n, -i
  
-11.  > — redirect stdout
+11. " > " — redirect stdout
  - Syntax: >
  - Common options: n/a
  
 12. cat — Read a file, create a file, and concatenate files
  - Syntax: cat [option(s)] [file_name(s)] [-] [file_name(s)]
  - Common options: -n
+ ```
+ $cat *.txt
+ ```
+ ```
+ cat sample
+ ```
  
 13. | — Pipe
  - Syntax: |
@@ -83,6 +103,15 @@ List of commands:
 20. compgen — Shows all available commands, aliases, and functions
  - Syntax: compgen [option(s)]
  - Common options: -a, -c, -d
+ 
+21. rm - Removes files from the system without confirmation
+  ```
+  rm sample
+  ```
+22. mv - move a file, rename a file
+  ```
+  mv sample /home/user/Documents
+  ```
 
 
 Custom commands in Bash are known as “aliases”. Aliases are essentially an abbreviation, or a means to avoid typing a long command sequence. They can save a great deal of typing at the command line so you can avoid having to remember complex combinations of commands and options. There is one caveat to using aliases, and that is to be sure you don’t overwrite any keywords.
