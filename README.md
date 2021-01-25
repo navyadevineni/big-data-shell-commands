@@ -8,13 +8,17 @@ List of commands:
  - Syntax: ls [option(s)] [file(s)]
  - Common options: -a, -l
  
-1. echo — Prints text to the terminal window
+2. echo — Prints text to the terminal window
  - Syntax: echo [option(s)] [string(s)]
  - Common options: -e, -n
  
-1. touch — Creates a file
+3. touch — Creates a file
  - Syntax: touch [option(s)] file_name(s)
  - Common options: -a, -m, -r, -d
+ 
+4. mkdir — Create a directory
+ - Syntax: mkdir [option(s)] directory_name(s)
+ - Common options: -m, -p, -v
 
 
 
