@@ -176,15 +176,15 @@ alias www = ‘python -m SimpleHTTPServer 8000’
 ### PowerShell 
 List of commands:
 
+- Get-Location – Get the current directory
+- Set-Location – Get the current directory
+- Move-item – Move a file to a new location
+- Copy-item – Copy a file to a new location
+- Rename – item Rename an existing file
+- New-item – Create a new file
+
+
 ```
-
-
-
-
-
-
-
-
 
 
 
