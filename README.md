@@ -189,9 +189,3 @@ List of commands:
 - ls - list the items
 - ALT SPACE C -To close the window
 
-
-```
-
-
-
-```
