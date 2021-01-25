@@ -24,6 +24,9 @@ List of commands:
 3. touch — Creates a file
  - Syntax: touch [option(s)] file_name(s)
  - Common options: -a, -m, -r, -d
+ ```
+ touch example.txt
+ ```
  
 4. mkdir — Create a directory
  - Syntax: mkdir [option(s)] directory_name(s)
