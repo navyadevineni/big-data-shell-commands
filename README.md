@@ -85,12 +85,14 @@ List of commands:
  - Common options: -a, -c, -d
 
 
-
-```
 Custom commands in Bash are known as “aliases”. Aliases are essentially an abbreviation, or a means to avoid typing a long command sequence. They can save a great deal of typing at the command line so you can avoid having to remember complex combinations of commands and options. There is one caveat to using aliases, and that is to be sure you don’t overwrite any keywords.
 
 Syntax: alias alias_name = “command_to_run”
-
+```
+alias c = “clear”
+```
+```
+alias www = ‘python -m SimpleHTTPServer 8000’
 ```
 
 ### PowerShell 
